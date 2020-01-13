@@ -1,7 +1,18 @@
 package com.test.proj;
 
+/*
+* @author : Kamakshi
+* @date : 12/21/2019
+*This is used to remove the Nth Node from the end of the given 
+* List
+*
+*/
+
+
+
 import java.util.LinkedList;
 
+// Holds the data in the list Node format.
 class ListNode {
 	  int val;
 	  ListNode next;
@@ -9,9 +20,9 @@ class ListNode {
 }
 
 public class testNthNodefromEnd {
-
+	
 	public ListNode removeNthFromEnd(ListNode head, int n) {
-
+		
 		LinkedList<ListNode> lstNode = new LinkedList<ListNode>();
 		lstNode.add(head);
 		ListNode node = head.next;
@@ -23,7 +34,10 @@ public class testNthNodefromEnd {
 		}
 		int index = lstNode.size() - n;
 		int totalLength = lstNode.size();
-		ListNode dummyNode = new ListNode(0);
+		
+		// Dummy node helps to store the first node of the list
+		// Which gives access to easy retrieval or removal of the node.
+		ListNode dummyNode = new ListNode(0);		
 		dummyNode.next = head;
 		ListNode first = dummyNode;
 		while(index != 0) {
