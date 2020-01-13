@@ -9,7 +9,7 @@ package com.test.proj;
 public class DisplayDigitsOfInt {
 
 	// This formula will be used for printing each digit of the integer from starting
-	// if required for the long, just change the datatype to long.
+	// if required for the long, just change the datatype to long except for the 'size'.
 	public void displayEachDigit(int num,int size) {
 
 		for(int i = 0; i < size;i++) {
