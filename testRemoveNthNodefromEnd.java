@@ -19,7 +19,7 @@ class ListNode {
 	  ListNode(int x) { val = x; }
 }
 
-public class testNthNodefromEnd {
+public class testRemoveNthNodefromEnd {
 	
 	public ListNode removeNthFromEnd(ListNode head, int n) {
 		
@@ -61,7 +61,7 @@ public class testNthNodefromEnd {
 		lst3.next = lst4;
 		lst4.next = lst5;
 
-		testNthNodefromEnd obj = new testNthNodefromEnd();
+		testRemoveNthNodefromEnd obj = new testRemoveNthNodefromEnd();
 		ListNode lst = obj.removeNthFromEnd(lst1, 2);
 		while(lst != null) {
 			System.out.println(lst.val);
