@@ -1,7 +1,7 @@
 package com.test.proj;
 
 /*
-* @author : CodeDock
+* @author : kamakshi
 * @date : 12/30/2019
 * Used to remove duplicates in an sorted array and 
 * returns number of distinct element.
