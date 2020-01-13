@@ -1,7 +1,7 @@
 package com.test.proj;
 
 /*
-* @author : CodeDock
+* @author : Kamakshi
 * @date : 1/12/2020
 * Used to display each digit of all positive valid int/long data starts with 1 and above.
 * from starting.
