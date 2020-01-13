@@ -1,8 +1,15 @@
 package com.test.proj;
 
+/*
+* @author : CodeDock
+* @date : 1/12/2020
+* Used to display each digit of all positive int/long data 
+* from starting.
+*/
 public class DisplayDigitsOfInt {
 
 	// This formula will be used for printing each digit of the integer from starting
+	// if required for the long, just change the datatype to long.
 	public void displayEachDigit(int num,int size) {
 
 		for(int i = 0; i < size;i++) {
@@ -29,7 +36,7 @@ public class DisplayDigitsOfInt {
 	public static void main(String str[]) {
 		
 		DisplayDigitsOfInt obj = new DisplayDigitsOfInt();
-		int num = 232534323;
+		int num = 232534323; // can be used for the long as well
 		obj.displayEachDigit(num, (num+"").length());
 	}
 }
