@@ -1,7 +1,7 @@
 package com.test.proj;
 
 /*
-* @author : CodeDock
+* @author : Kamakshi
 * @date : 01/04/2020
 * Used to search the target position at given sorted array or can 
 * be used to search what might be the anticipated position if the target
