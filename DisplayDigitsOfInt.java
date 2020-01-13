@@ -3,7 +3,7 @@ package com.test.proj;
 /*
 * @author : CodeDock
 * @date : 1/12/2020
-* Used to display each digit of all positive int/long data 
+* Used to display each digit of all positive valid int/long data starts with 1 and above.
 * from starting.
 */
 public class DisplayDigitsOfInt {
