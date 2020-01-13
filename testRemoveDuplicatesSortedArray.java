@@ -1,5 +1,12 @@
 package com.test.proj;
 
+/*
+* @author : CodeDock
+* @date : 12/30/2019
+* Used to remove duplicates in an sorted array and 
+* returns number of distinct element.
+*
+*/
 public class testRemoveDuplicatesSortedArray {
 	
 	public int removeDuplicates(int[] a) {
@@ -10,6 +17,9 @@ public class testRemoveDuplicatesSortedArray {
 		if(a.length == 1) {
 			return 1;
 		}else {
+			// Storing the first value in the temp varieble, comparing with the non-equal element
+			// and swapping the position which pushes the duplicate elements to the end. Thus remains 
+			// with new array with all the distinct element at the intial part of the array.
 			int temp = a[0];
 			int index = 1;
 			for(int i = 1; i < a.length ; i++) {
